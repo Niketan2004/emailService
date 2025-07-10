@@ -1,6 +1,6 @@
 # 📧 Resilient Email Sending Service
 
-A simple and robust email sending system built using **JavaScript** that simulates real-world resilience patterns like retries, fallback providers, rate limiting, idempotency, and circuit breakers.
+A simple and  email sending system built using **JavaScript** that simulates real-world resilience patterns like retries, fallback providers, rate limiting, idempotency, and circuit breakers.
 
 ---
 
@@ -42,7 +42,7 @@ email-service/
 ### 1. Clone the project
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Niketan2004/emailService.git
 cd email-service
 ```
 
