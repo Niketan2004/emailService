@@ -43,13 +43,13 @@ email-service/
 
 ```bash
 git clone https://github.com/Niketan2004/emailService.git
-cd email-service
+cd emailService
 ```
 
 ### 2. Run the app
 
 ```bash
-node index.js
+node src/index.js
 ```
 
 > You will see emails being sent, retried, switched between providers, and blocked due to rate limit or circuit breaker.

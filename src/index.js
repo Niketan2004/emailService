@@ -26,6 +26,5 @@ const emailService = new EmailService();
           const id = `rate-${i}`;
           await emailService.sendEmail(id, "niketan@example.com", "Rate Limit", `Email ${i + 1}`);
      }
-
      console.log("\n✅ DEMO Complete.");
 })();

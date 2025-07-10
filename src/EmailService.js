@@ -55,7 +55,7 @@ class EmailService {
                               await delay(waitTime);   // Wait before retrying
                          }
                          // Send the email using the provider
-                         await provider.send(to, subject, body);// Call the provider's send method
+                         await provider.send(to, subject, body);
                          // If successful, mark the email as sent and reset the circuit breaker
                          this.sentIds.add(id);// Add the ID to the sent set to prevent duplicates
                          breaker.success(); // reset breaker
